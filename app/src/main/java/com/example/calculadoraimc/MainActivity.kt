@@ -249,7 +249,7 @@ fun PantallaResultado(
     val (categoria, colorCategoria) = when {
 
         imc < 18.5f ->
-            Pair("Bajo peso", Color.Blue)
+            Pair("Bajo peso", Color.Red)
 
         imc in 18.5f..<25.0f -> {
             Pair("Peso normal", Color.Green)
